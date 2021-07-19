@@ -1,0 +1,169 @@
+@font-face {
+    font-family: jenson;
+    src: url("./assets/jenson.otf") format("opentype");
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+a.hover:hover
+{   
+  text-decoration: none;
+  color: white;
+}
+
+
+.pillbutton {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background-color: #EC407C;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 32px;
+ }
+ 
+ .nav-link{
+     font-weight: 400;
+ }
+
+ .register{
+     background-color: #EC407C;
+     color: white;
+     font-family:jenson;
+     margin-top: -3rem;
+     padding-top: 3rem;
+ }
+
+ .registerbutton{
+     font-family: Arial;
+    font-weight: 600;
+    background-color: white;
+    border: none;
+    color: #EC407C;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 32px;
+    text-decoration: none;
+
+    
+
+ }
+
+ .registerbuttoncontainer{
+    text-align: center;
+    margin: 0 auto;
+ }
+
+ h1{
+    font-family:jenson;
+
+
+ }
+
+ .bannerheader{
+     color:white;
+     margin-top: -25rem;
+ }
+
+
+.cont{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.sidebannerbutton{
+    background: #FE94AE;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.middlebannerbutton{
+    background:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.smallheader{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.thumbnail{
+    border: 50%;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+.pink{
+    background: #FFE3EA;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.ourimpact{
+    border-radius: 2rem;
+}
+.ourimpactdiv{
+    color: white;
+    margin:-28rem;
+}
+
+.foursquares{
+    margin-top: 50rem;
+    
+}
+
+.foursquare{
+    border-style: solid;
+    border-color: #EC407C;
+    border-width: 1.5px;
+}
+
+.differences{
+    margin-top: -35rem;
+}
+
+.submitbutton{
+    background: transparent;
+    border: none !important;
+    margin-left: -5rem;
+    float: left;
+
+}
+
+#texty::placeholder{
+    color: #EC407C;
+}
+
+#texty{
+    background-color: white;
+}
+
+.btn-light{
+    color: #EC407C;
+    background-color: white;
+    font-weight: 700;
+}
